@@ -1,14 +1,14 @@
 // Initialise a thread by entending the thread class and implementing Runnable interface.
 
 import java.io.*; 
-class ThreadClass extends Thread { 
+class InitiateThread extends Thread { 
 	public void run() // No need to ovverride run.
 	{ 
 		System.out.print("Welcome to GeeksforGeeks."); 
 	} 
 	public static void main(String[] args) 
 	{ 
-		ThreadClass g = new ThreadClass(); // creating thread 
+		InitiateThread g = new InitiateThread(); // creating thread 
 		g.start(); // starting thread 
 	} 
 }
@@ -17,11 +17,11 @@ class ThreadClass extends Thread {
 // ==================================================================================
 
 
-class ThreadClass implements Runnable { 
+class InitiateThread implements Runnable { 
     public static void main(String args[]) 
     { 
         // create an object of Runnable target 
-        ThreadClass gfg = new ThreadClass(); 
+        InitiateThread gfg = new InitiateThread(); 
   
         // pass the runnable reference to Thread 
         Thread t = new Thread(gfg, "gfg"); 
