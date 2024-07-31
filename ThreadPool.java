@@ -6,11 +6,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors; 
 
 // Task class to be executed (Step 1) 
-class Task implements Runnable 
+class ThreadPool implements Runnable 
 { 
 	private String name; 
 	
-	public Task(String s) 
+	public ThreadPool(String s) 
 	{ 
 		name = s; 
 	} 
@@ -57,11 +57,11 @@ class Task implements Runnable
 	public static void main(String[] args) 
 	{ 
 		// creates five tasks 
-		Runnable r1 = new Task("task 1"); 
-		Runnable r2 = new Task("task 2"); 
-		Runnable r3 = new Task("task 3"); 
-		Runnable r4 = new Task("task 4"); 
-		Runnable r5 = new Task("task 5");	 
+		Runnable r1 = new ThreadPool("task 1"); 
+		Runnable r2 = new ThreadPool("task 2"); 
+		Runnable r3 = new ThreadPool("task 3"); 
+		Runnable r4 = new ThreadPool("task 4"); 
+		Runnable r5 = new ThreadPool("task 5");	 
 		
 		// creates a thread pool with MAX_T no. of 
 		// threads as the fixed pool size(Step 2) 
