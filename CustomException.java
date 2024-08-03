@@ -20,7 +20,7 @@ public class CustomException extends Exception {
         try{
             giveException(-4);
         }catch(Exception e){
-             System.out.println(e);
+             System.out.println("CustomException: " + e.getMessage());
         }
       
        
