@@ -80,3 +80,10 @@ public class Main {
     }
 }
 
+// Expected Output
+
+//Original Circle: Circle{color='Red', radius=5}
+//Cloned Circle: Circle{color='Red', radius=5}
+//Original Rectangle: Rectangle{color='Blue', length=10, width=20}
+//Cloned Rectangle: Rectangle{color='Blue', length=10, width=20}
+
