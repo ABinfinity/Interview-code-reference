@@ -48,3 +48,12 @@ class ShallowDeepCopy {
         System.out.println();
     }
 }
+
+
+// Expected Output
+
+// Deepcopy: Red Blue Green 
+// Original: Red Blue 
+
+// Shallow Copy: Red Blue Green 
+// Original: Red Blue Green 
