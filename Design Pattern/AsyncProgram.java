@@ -31,6 +31,10 @@ public class ExecutorServiceCompletableFutureExample {
 //   asynchronous code. It represents a future result of an operation that you can complete explicitly. 
 //   CompletableFuture allows you to run tasks asynchronously and attach callbacks for when they complete.
 
+// Future: Basic asynchronous result retrieval, limited functionality, lacks chaining.
+// FutureTask: A concrete impl of Future with control over execution.
+// CompletableFuture: Extension of future, Advanced, non-blocking, functional-style asynchronous programming, allows chaining.
+
 
 
 
